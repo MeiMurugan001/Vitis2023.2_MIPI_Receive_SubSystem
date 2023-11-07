@@ -1,0 +1,255 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Nov  7 11:47:48 2023
+# Process ID: 13148
+# Current directory: D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1
+# Command line: vivado.exe -log system_mipi_csi2_rx_subsyst_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_mipi_csi2_rx_subsyst_0_1.tcl
+# Log file: D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1/system_mipi_csi2_rx_subsyst_0_1.vds
+# Journal file: D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1\vivado.jou
+# Running On: Meimurugan, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 16923 MB
+#-----------------------------------------------------------
+source system_mipi_csi2_rx_subsyst_0_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 479.133 ; gain = 180.230
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MyProjects/Projects/SG/Nov5/SG/hw/hw.ipdefs/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_mipi_csi2_rx_subsyst_0_1
+Command: synth_design -top system_mipi_csi2_rx_subsyst_0_1 -part xc7z010clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16820
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1358.156 ; gain = 439.355
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'system_mipi_csi2_rx_subsyst_0_1' [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/synth/system_mipi_csi2_rx_subsyst_0_1.vhd:101]
+INFO: [Synth 8-3491] module 'bd_e207' declared at 'd:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/synth/bd_e207.vhd:12' bound to instance 'U0' of component 'bd_e207' [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/synth/system_mipi_csi2_rx_subsyst_0_1.vhd:211]
+INFO: [Synth 8-638] synthesizing module 'bd_e207' [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/synth/bd_e207.vhd:61]
+INFO: [Synth 8-3491] module 'bd_e207_phy_0' declared at 'D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1/.Xil/Vivado-13148-Meimurugan/realtime/bd_e207_phy_0_stub.vhdl:6' bound to instance 'phy' of component 'bd_e207_phy_0' [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/synth/bd_e207.vhd:436]
+INFO: [Synth 8-638] synthesizing module 'bd_e207_phy_0' [D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1/.Xil/Vivado-13148-Meimurugan/realtime/bd_e207_phy_0_stub.vhdl:68]
+INFO: [Synth 8-3491] module 'bd_e207_r_sync_0' declared at 'D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1/.Xil/Vivado-13148-Meimurugan/realtime/bd_e207_r_sync_0_stub.vhdl:6' bound to instance 'r_sync' of component 'bd_e207_r_sync_0' [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/synth/bd_e207.vhd:495]
+INFO: [Synth 8-638] synthesizing module 'bd_e207_r_sync_0' [D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1/.Xil/Vivado-13148-Meimurugan/realtime/bd_e207_r_sync_0_stub.vhdl:22]
+INFO: [Synth 8-3491] module 'bd_e207_rx_0' declared at 'D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1/.Xil/Vivado-13148-Meimurugan/realtime/bd_e207_rx_0_stub.vhdl:6' bound to instance 'rx' of component 'bd_e207_rx_0' [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/synth/bd_e207.vhd:508]
+INFO: [Synth 8-638] synthesizing module 'bd_e207_rx_0' [D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1/.Xil/Vivado-13148-Meimurugan/realtime/bd_e207_rx_0_stub.vhdl:81]
+INFO: [Synth 8-3491] module 'bd_e207_vfb_0_0' declared at 'D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1/.Xil/Vivado-13148-Meimurugan/realtime/bd_e207_vfb_0_0_stub.vhdl:6' bound to instance 'vfb_0' of component 'bd_e207_vfb_0_0' [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/synth/bd_e207.vhd:580]
+INFO: [Synth 8-638] synthesizing module 'bd_e207_vfb_0_0' [D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1/.Xil/Vivado-13148-Meimurugan/realtime/bd_e207_vfb_0_0_stub.vhdl:39]
+INFO: [Synth 8-256] done synthesizing module 'bd_e207' (0#1) [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/synth/bd_e207.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'system_mipi_csi2_rx_subsyst_0_1' (0#1) [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/synth/system_mipi_csi2_rx_subsyst_0_1.vhd:101]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1472.141 ; gain = 553.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1472.141 ; gain = 553.340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1472.141 ; gain = 553.340
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1472.141 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_0/bd_e207_r_sync_0/bd_e207_r_sync_0_in_context.xdc] for cell 'U0/r_sync'
+Finished Parsing XDC File [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_0/bd_e207_r_sync_0/bd_e207_r_sync_0_in_context.xdc] for cell 'U0/r_sync'
+Parsing XDC File [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_1/bd_e207_rx_0/bd_e207_rx_0_in_context.xdc] for cell 'U0/rx'
+Finished Parsing XDC File [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_1/bd_e207_rx_0/bd_e207_rx_0_in_context.xdc] for cell 'U0/rx'
+Parsing XDC File [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc] for cell 'U0/phy'
+Finished Parsing XDC File [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc] for cell 'U0/phy'
+Parsing XDC File [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_3/bd_e207_vfb_0_0/bd_e207_vfb_0_0_in_context.xdc] for cell 'U0/vfb_0'
+Finished Parsing XDC File [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_3/bd_e207_vfb_0_0/bd_e207_vfb_0_0_in_context.xdc] for cell 'U0/vfb_0'
+Parsing XDC File [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/system_mipi_csi2_rx_subsyst_0_1_fixed_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/system_mipi_csi2_rx_subsyst_0_1_fixed_ooc.xdc] for cell 'U0'
+Parsing XDC File [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/system_mipi_csi2_rx_subsyst_0_1_board.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/system_mipi_csi2_rx_subsyst_0_1_board.xdc] for cell 'U0'
+Parsing XDC File [D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1486.438 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1489.000 ; gain = 2.562
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for mipi_phy_if_clk_hs_n. (constraint file  d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for mipi_phy_if_clk_hs_n. (constraint file  d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for mipi_phy_if_clk_hs_p. (constraint file  d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for mipi_phy_if_clk_hs_p. (constraint file  d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for mipi_phy_if_data_hs_n[0]. (constraint file  d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for mipi_phy_if_data_hs_n[0]. (constraint file  d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for mipi_phy_if_data_hs_n[1]. (constraint file  d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for mipi_phy_if_data_hs_n[1]. (constraint file  d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for mipi_phy_if_data_hs_p[0]. (constraint file  d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for mipi_phy_if_data_hs_p[0]. (constraint file  d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for mipi_phy_if_data_hs_p[1]. (constraint file  d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for mipi_phy_if_data_hs_p[1]. (constraint file  d:/MyProjects/Projects/SG/Nov5/SG/hw/hw.gen/sources_1/bd/system/ip/system_mipi_csi2_rx_subsyst_0_1/bd_0/ip/ip_2/bd_e207_phy_0/bd_e207_phy_0_in_context.xdc, line 14).
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/r_sync. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/rx. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/phy. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/vfb_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:53 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:53 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:53 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:01:07 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:01:07 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:01:07 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:01:07 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:01:07 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:01:07 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |bd_e207_phy_0    |         1|
+|2     |bd_e207_r_sync_0 |         1|
+|3     |bd_e207_rx_0     |         1|
+|4     |bd_e207_vfb_0_0  |         1|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+----------------------+------+
+|      |Cell                  |Count |
++------+----------------------+------+
+|1     |bd_e207_phy_0_bbox    |     1|
+|2     |bd_e207_r_sync_0_bbox |     1|
+|3     |bd_e207_rx_0_bbox     |     1|
+|4     |bd_e207_vfb_0_0_bbox  |     1|
++------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:01:07 . Memory (MB): peak = 1489.000 ; gain = 570.199
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:01:03 . Memory (MB): peak = 1489.000 ; gain = 553.340
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:01:07 . Memory (MB): peak = 1489.000 ; gain = 570.199
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1489.000 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1489.000 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: a91c44ba
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:01 ; elapsed = 00:01:28 . Memory (MB): peak = 1489.000 ; gain = 989.004
+INFO: [Common 17-1381] The checkpoint 'D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1/system_mipi_csi2_rx_subsyst_0_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP system_mipi_csi2_rx_subsyst_0_1, cache-ID = 531a177dc0c149e1
+INFO: [Coretcl 2-1174] Renamed 5 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/MyProjects/Projects/SG/Nov5/SG/hw/hw.runs/system_mipi_csi2_rx_subsyst_0_1_synth_1/system_mipi_csi2_rx_subsyst_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_mipi_csi2_rx_subsyst_0_1_utilization_synth.rpt -pb system_mipi_csi2_rx_subsyst_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  7 11:49:53 2023...
